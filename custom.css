@@ -23,6 +23,34 @@ h2 {
 }
 
 p {
-	font-size:30px;
+	font-size: 30px;
 	margin: 90px;"
+	position: absolute;
+	top: 200px;
+}
+
+#fancybutton {
+    border: 2px solid black;
+    border-radius: 1px;
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: black;
+	font-family: 'Montserrat', sans-serif;
+   	letter-spacing: 1.5px;
+   	text-transform: uppercase;
+   	position: relative;
+   	top: 460px;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    transition: all .4s;
+}
+
+#fancybutton:hover {
+	letter-spacing: 3px;
+}
+
+#fancybutton:active {
+	letter-spacing: 1px;
 }
