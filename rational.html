@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+	<head>
+		<style>
+			body {background-color:#ECA72C}
+			p    {color: #4F5165}
+		</style>
+	</head>
+	<body>
+		<h1 style="font-family: Quicksand; text-align: center; font-size:20px; margin: 40px 40px -200px 40px;">Are Humans Rational Self Serving Agents?</h1>
+		<p style= "font-family: 'Playball', cursive; font-size: 200px; text-align: center; margin-bottom: -100px;">No,</p>
+		<!-- <h2 style = "font-family: Quicksand; text-align: center; margin: 70px;">
+			According to a 1981 study by Tversky and Kahneman, "people systematically violate the requirements of consistency and coherence... inconsequential changes in the formulation of choice problems caused significant shifts in preference."
+		</h2>
+		<h3 style="font-family: Quicksand; text-align: center; font-size:14px;">
+			<a href="http://www.jstor.org/stable/1685855?seq=1#page_scan_tab_contents">Stable URL</a> 
+		</h3> -->
+		<div style="font-family: Quicksand; text-align: center; font-size:30px; margin: 90px;"
+			><script>
+				var quote;
+				var title;
+				var num = Math.random();
+				if (num < .33){
+					quote = "\"...people systematically violate the requirements of consistency and coherence... inconsequential changes in the formulation of choice problems caused significant shifts in preference.\"";
+					title = "The Framing of Decisions and the Psychology of Choice";
+					title = title.link("http://www.jstor.org/stable/1685855");
+				}
+				if (num >= .33 && num < .66){
+					quote = "\"...the sentencing decisions of experienced legal professionals are influenced by irrelevant sentencing demands even if they are blatantly determined at random.\"";
+					title = "Playing Dice With Criminal Sentences: The Influence of Irrelevant Anchors on Experts\' Judicial Decision Making";
+					title = title.link("http://psp.sagepub.com/content/32/2/188.full.pdf+html");
+				}
+				if (num >= .66){
+					quote = "\"A significant majority chose to repeat the long trial, apparently preferring more pain over less... the most compelling is a rule of temporal monotonicity, which requires that adding moments of pain to the end of an episode can only make the episode worse, and that adding moments of pleasure must make it better. As we shall see, however, the psycology of evaluation does not obey this rule.\"";
+					title = "When More Pain Is Preferred to Less: Adding a Better End";
+					title = title.link("http://www.jstor.org.ezproxy.carleton.edu/stable/40062570");
+				}
+				document.write(quote +"<br />");
+				title = title.fontsize(3);
+				document.write(title +"<br />");
+				document.write(link);
+			</script>
+		<div>
+	</body>
+</html>
